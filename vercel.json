@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/HomePage/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/HomePage",
+      "destination": "/HomePage/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/employee",
+      "destination": "/employee-login/employee-login.html",
+      "permanent": true
+    },
+    {
+      "source": "/student",
+      "destination": "/student-login/student-login.html",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "/api/index"
+    }
+  ]
+}
